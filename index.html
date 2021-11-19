@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Formulario-post-ajax</title>
+
+  <!-- Bootstrap CSS -->
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+  <div class="container">
+    <form class="col-md-4" id="form">
+      <h2>registrate</h2>
+      <div class="form-group">
+        <input type="text" class="form-medium" id="nombre" placeholder="nombre" autofocus/>
+        <br />
+        <br />
+        <input type="text" class="form-medium" id="trabajo" placeholder="Trabajo" />
+        <br />
+        <br />
+        <input type="date" class="form-medium" id="fecha" placeholder="fecha" />
+      </div>
+      <button type="button" class="btn btn-primary" id="enviar">
+        Enviar
+      </button>
+    </form>
+    <table class="table-container col-md-8" border="1">
+      <thead id="info-thead">
+        <h2 class='text-center'>registro</h2>
+        <tr>
+          <th>id</th>
+          <th>nombre</th>
+          <th>trabajo</th>
+          <th>fecha</th>
+          <th>creacion</th>
+        </tr>
+      </thead>
+      <tbody id="tbody">
+        <p id="mensaje" class="alert-success text-center"></p>
+        <tr>
+          <td id="infoId"></td>
+          <td id="infoName"></td>
+          <td id="infoTrabajo"></td>
+          <td id="infoFecha"></td>
+          <td id="createdAt"></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <!-- jQuery -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <!-- Bootstrap JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="/js/code.js"></script>
+</body>
+
+</html>

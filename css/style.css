@@ -1,0 +1,25 @@
+.container {
+  margin-top: 100px;
+  border: 3px solid grey; 
+  padding: 20px;
+}
+
+.table-container {
+  border: 2px solid #ccc;
+  margin-top: 60px;
+
+}
+
+#tbody {
+  height: 30px;
+  align-items: center;
+}
+
+
+#mensaje {
+  width: 500px;
+  float: left;
+  margin-left: 100px;
+  margin-bottom: -30px;
+  font-size: 22px;
+}
